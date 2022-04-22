@@ -12,7 +12,7 @@
       brush        = new Image();
       
   // base64 Workaround because Same-Origin-Policy
-  image.src ='https://raw.githubusercontent.com/PierreJeanRmy/revelation_all_hands/main/Scratch.png?token=GHSAT0AAAAAABTZONZZLMPUF3IZCPNVPGY6YTCMTFQ';
+  image.src ='Scratch.png';
   image.onload = function() {
     ctx.drawImage(image, 0, 0, 1280, 720);
     // Show the form when Image is loaded.
